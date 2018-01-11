@@ -1,0 +1,52 @@
+#####Q1.#####
+
+//part 1
+mkdir test
+cd test
+git init
+
+//part2
+echo 'Git is good.' > a.txt
+git add *
+
+//part3
+git status
+
+//part4
+git commit
+
+#####Q2.#####
+//part1
+mkdir subtest
+echo 'hello world.' > b.txt
+
+//part2
+echo 'test1' > a1.txt
+echo 'test2' > a2.txt
+cd ..
+git add *
+
+//part3
+git status
+git commit
+
+//part4
+git log
+
+#####Q3.#####
+//part1
+git remote add origin https://github.com/wonderlives/test.git
+git push origin master
+
+//part2
+subl a.txt
+
+//part3
+git diff --staged
+
+//part4
+git commit
+
+#####Q4.#####
+
+
